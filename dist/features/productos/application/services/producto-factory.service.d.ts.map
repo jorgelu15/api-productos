@@ -1,0 +1,1 @@
+{"version":3,"file":"producto-factory.service.d.ts","sourceRoot":"","sources":["../../../../../features/productos/application/services/producto-factory.service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,qBAAqB,CAAC;AAClD,OAAO,EAAE,kBAAkB,EAAE,MAAM,uEAAuE,CAAC;AAE3G,qBAAa,sBAAsB;IAE/B,MAAM,CAAC,+BAA+B,CAAC,kBAAkB,EAAE,kBAAkB,GAAG,WAAW;CAiB9F"}

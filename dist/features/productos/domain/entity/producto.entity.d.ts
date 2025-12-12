@@ -1,0 +1,43 @@
+export declare class ProductoEntity {
+    private id_producto;
+    private nombre;
+    private codigo;
+    private categoria_id;
+    private marca_id;
+    private unidad_medida_id;
+    private impuesto_id;
+    private proveedor_id;
+    private foto_url;
+    private estado;
+    private id_inst;
+    private updatedAt;
+    private createdAt;
+    constructor(id_producto: number, nombre: string, codigo: string, categoria_id: number, marca_id: number, unidad_medida_id: number, impuesto_id: number, proveedor_id: number, foto_url: string, estado: number, id_inst: number, updatedAt: Date, createdAt: Date);
+    getIdProducto(): number;
+    getNombre(): string;
+    getCodigo(): string;
+    getCategoriaId(): number;
+    getMarcaId(): number;
+    getUnidadMedidaId(): number;
+    getImpuestoId(): number;
+    getProveedorId(): number;
+    getFotoUrl(): string;
+    getEstado(): number;
+    getIdInst(): number;
+    getUpdatedAt(): Date;
+    getCreatedAt(): Date;
+    setIdProducto(id_producto: number): void;
+    setNombre(nombre: string): void;
+    setCodigo(codigo: string): void;
+    setCategoriaId(categoria_id: number): void;
+    setMarcaId(marca_id: number): void;
+    setUnidadMedidaId(unidad_medida_id: number): void;
+    setImpuestoId(impuesto_id: number): void;
+    setProveedorId(proveedor_id: number): void;
+    setFotoUrl(foto_url: string): void;
+    setEstado(estado: number): void;
+    setIdInst(id_inst: number): void;
+    setUpdatedAt(updatedAt: Date): void;
+    setCreatedAt(createdAt: Date): void;
+}
+//# sourceMappingURL=producto.entity.d.ts.map

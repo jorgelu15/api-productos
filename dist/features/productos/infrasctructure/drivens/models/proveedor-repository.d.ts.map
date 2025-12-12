@@ -1,0 +1,1 @@
+{"version":3,"file":"proveedor-repository.d.ts","sourceRoot":"","sources":["../../../../../../features/productos/infrasctructure/drivens/models/proveedor-repository.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mBAAmB;IAChC,MAAM,EAAE,MAAM,CAAC;IACf,QAAQ,EAAE,MAAM,CAAC;IACjB,SAAS,EAAE,MAAM,CAAC;IAClB,MAAM,EAAE,OAAO,CAAC;CACnB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"categoria-repository.d.ts","sourceRoot":"","sources":["../../../../../../features/productos/infrasctructure/drivens/models/categoria-repository.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mBAAmB;IAChC,EAAE,EAAE,MAAM,CAAC;IACX,MAAM,EAAE,MAAM,CAAC;IACf,WAAW,EAAE,MAAM,CAAC;IACpB,SAAS,EAAE,IAAI,CAAC;IAChB,SAAS,EAAE,IAAI,CAAC;CACnB"}

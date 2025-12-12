@@ -1,0 +1,1 @@
+{"version":3,"file":"get-category-by-id.usecase.d.ts","sourceRoot":"","sources":["../../../../../../features/productos/application/usecases/categorias/get-category-by-id.usecase.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,uBAAuB,EAAE,MAAM,iEAAiE,CAAC;AAE1G,qBAAa,uBAAuB;IACpB,OAAO,CAAC,QAAQ,CAAC,mBAAmB;gBAAnB,mBAAmB,EAAE,uBAAuB;IACnE,OAAO,CAAC,EAAE,EAAE,MAAM;CAS3B"}
