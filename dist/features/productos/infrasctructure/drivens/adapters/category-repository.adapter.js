@@ -19,6 +19,9 @@ class CategoryRepositoryAdapter {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const categorias = yield Categoria_model_1.CategoriaModel.findAll({
+                    where: {
+                        activo: true
+                    },
                     raw: true,
                 });
                 return categorias;

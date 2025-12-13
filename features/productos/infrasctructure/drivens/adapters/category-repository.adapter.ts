@@ -11,6 +11,9 @@ export class CategoryRepositoryAdapter implements CategoriaRepositoryPort {
     async findAll(): Promise<CategoriaRepository[] | null> {
         try {
             const categorias = await CategoriaModel.findAll({
+                where: {
+                    activo: true
+                },
                 raw: true,
             }) as unknown as CategoriaRepository[] | null;
 
@@ -65,7 +68,7 @@ export class CategoryRepositoryAdapter implements CategoriaRepositoryPort {
         }
     }
 
-    async delete(id: string): Promise<CategoriaRepository | null>{
+    async delete(id: string): Promise<CategoriaRepository | null> {
         try {
             const updatedCategoria = await CategoriaModel.update({
                 activo: false
