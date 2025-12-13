@@ -73,13 +73,14 @@ class ProductoRepositoryAdapter {
     deleteProducto(id) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                return yield Producto_model_1.ProductoModel.destroy({
-                    where: { id_producto: id }
+                const deletedCount = yield Producto_model_1.ProductoModel.destroy({
+                    where: { id_producto: id },
                 });
+                return deletedCount;
             }
             catch (error) {
-                console.error('Error al eliminar el producto:', error);
-                throw new Error('Error al eliminar el producto');
+                console.error("Error al eliminar el producto:", error);
+                throw new Error("Error al eliminar el producto");
             }
         });
     }

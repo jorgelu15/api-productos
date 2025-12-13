@@ -61,16 +61,17 @@ export class ProductoRepositoryAdapter implements ProductoRepositoryPort {
         }
     }
 
-    async deleteProducto(id: string): Promise<any> {
+    async deleteProducto(id: string): Promise<number> {
         try {
-            return await ProductoModel.destroy({
-                where: { id_producto: id }
+            const deletedCount = await ProductoModel.destroy({
+                where: { id_producto: id },
             });
-            
-        }
-        catch (error) {
-            console.error('Error al eliminar el producto:', error);
-            throw new Error('Error al eliminar el producto');
+
+            return deletedCount; 
+        } catch (error) {
+            console.error("Error al eliminar el producto:", error);
+            throw new Error("Error al eliminar el producto");
         }
     }
+
 } 

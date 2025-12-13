@@ -16,12 +16,11 @@ class DeleteProductoUseCase {
     }
     execute(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            const [affectedCount, affectedRows] = yield this.productoRepositoryPort.deleteProducto(id);
-            if (affectedCount === 0) {
-                throw new Error(`No se encontró el producto`);
+            const deletedCount = yield this.productoRepositoryPort.deleteProducto(id);
+            if (deletedCount === 0) {
+                throw new Error("No se encontró el producto");
             }
-            const { id_producto } = affectedRows[0].dataValues;
-            return id_producto.toString();
+            return { id_producto: id };
         });
     }
 }
